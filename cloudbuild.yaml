@@ -22,7 +22,7 @@ steps:
     timeout: '2400s'
   # Running templates
   - name: gcr.io/cloud-builders/gcloud
-    args: ["dataflow", "jobs", "run", "word_count_cicd","--gcs-location","gs://csv_to_bigquery_load_2/Template_wordcount"]
+    args: ["dataflow", "jobs", "run", "word_count_cicd1","--gcs-location","gs://csv_to_bigquery_load_2/Template_wordcount"]
 
 
 
